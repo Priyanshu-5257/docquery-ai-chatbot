@@ -25,7 +25,7 @@ parent_retriever_k = 12
 max_parents = 2
 context_retriever_k = 3
 embeddings = HuggingFaceEmbeddings(model_name="nomic-ai/nomic-embed-text-v1.5",model_kwargs={'trust_remote_code':True,'device' : 'cuda'})
-GOOGLE_API_KEY="AIzaSyCAgXr_vgasaWoiCkCvEE7LNZWvZmvXYfo"
+GOOGLE_API_KEY="Your-gemini-api-key"
 generation_config = {
   "temperature": 0.1,
   "top_p": 0.95,
